@@ -143,15 +143,15 @@ button.product {
 }
 
 .product-direction .container {
-  max-width: 1200px; /* Keeps content centered */
-  margin: 0 auto; /* Centers entire section */
-  text-align: center; /* Centers text block */
+  max-width: 1200px;
+  margin: 0 auto; 
+  text-align: center; 
 }
 
 .direction-content {
   max-width: 750px;
-  margin: 0 auto 60px auto; /* Center text block and add space below */
-  text-align: left; /* Keep text left aligned inside block */
+  margin: 0 auto 60px auto;
+  text-align: left; 
 }
 
 .direction-subtitle {
@@ -219,7 +219,21 @@ button.product {
   justify-content: space-between;
   gap: 50px;
   flex-wrap: wrap;
+
+  margin-left: 250px;   
 }
+
+.ideate-section h2,
+.ideate-section p {
+  font-size: 80px;   
+  line-height: 1.6;  
+}
+
+.ideate-section h2 {
+  font-size: 50px;   
+  font-weight: 700;
+}
+
 
 /* Left Text */
 .ideate-content {
@@ -291,7 +305,22 @@ button.product {
   align-items: flex-start; 
   text-align: left;
   gap: 50px;
+
+  margin-left: 250px;  
 }
+
+.task-tracking h2,
+.task-tracking p {
+  font-size: 20px;   
+  line-height: 1.6;
+}
+
+.task-tracking h2 {
+  font-size: 32px;  
+  font-weight: 700;
+}
+
+
 
 /* Text Content */
 .task-content {
@@ -391,7 +420,7 @@ button.product {
   max-width: 900px;
   margin: 0 auto 50px auto;
   text-align: left;
-  padding-left: 5%; 
+  padding-left: 12%; 
 }
 
 .insights-text h2 {
@@ -419,6 +448,7 @@ button.product {
   padding: 100px 20px;
   text-align: left;
   color: #fff;
+  padding-left: 15%;
 }
 
 .ai-subtitle {
